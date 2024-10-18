@@ -131,10 +131,10 @@ void directory(const char *givenDirectory) {
 
 	// print counts (%8d will right justify and pad with spaces)
 	printf("%8d ELF executable\n", cElf);
-	printf("%8d Perl script\n", cPython);
-	printf("%8d Shell script\n", cPerl);
-	printf("%8d Python script\n", cRuby);
-	printf("%8d Ruby script\n", cShell);
+	printf("%8d Perl script\n", cPerl);
+	printf("%8d Shell script\n", cShell);
+	printf("%8d Python script\n", cPython);
+	printf("%8d Ruby script\n", cRuby);
 	printf("%8d Unknown programs\n", cUnknown);
 }
 
