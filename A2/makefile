@@ -1,4 +1,4 @@
-CC = gcc
+CC = gcc-10
 CFLAGS = -Wall
 
 all: binscan
